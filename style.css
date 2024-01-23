@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+head,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --title-h1: 38px;
+    --title-p: 16px;
+}
+
+/* Common Font-Size of H1 and P of TITLE */
+.title h1{
+    font-size: var(--title-h1);
+}
+
+.title p{
+    font-size: var(--title-p) ;
+}
+
+#top_nav {
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-left: 25px !important;
+}
+
+#search {
+    color: white;
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    /* box-shadow: ; */
+    filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+}
+
+
+/* First Banner */
+
+#banner {
+    background-color: #fcc302;
+}
+
+#bannertext h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+#bannertext p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+#bannertext #contact {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #00bec9;
+}
+
+#bannertext #services {
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #daac00;
+    border: 3px solid #ffffff;
+}
+
+
+/* Second */
+#service-text {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn {
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+    width: 155px;
+    height: 100%;
+}
+
+#service-img {
+    padding: 5%;
+    position: relative;
+    z-index: 55;
+}
+
+/* Third */
+#third-sec h1,
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#third-sec img {
+    width: 75%;
+    align-self: center;
+}
+
+.third h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#third-sec .third-class p {
+    font-size: 16px;
+}
+
+/* Fourth Section */
+#fourth-section .col-4 img {
+    width: 100%;
+}
+
+/* Fifth Section */
+#fifth-sec h1,
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fifth-sec img {
+    width: 75%;
+    align-self: center;
+}
+
+/* Sixth Section */
+#sixth-sec h1,
+p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sixth-sec img {
+    width: 75%;
+    align-self: center;
+}
+
+/* Seventh Section */
+#counter-section {
+    background: url(images/nurse-2.png) #000000a6;
+    background-size: cover;
+    padding: 50px 0 70px;
+    background-position: center;
+}
+
+.counter-icon {
+    font-size: 70px;
+}
+
+#fifth-sec button {
+    align-self: center;
+    width: 90px;
+}
+
+/* Last Section */
+.last-images {
+    width: 75%;
+    align-self: center;
+}
+
+/* Footer */
+.footer p{
+    width: max-content;
+}

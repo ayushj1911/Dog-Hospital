@@ -1,0 +1,221 @@
+:root {
+    --title-h1-big: 35px;
+    --title-h1-medium: 30px;
+    --title-p-medium: 12px;
+}
+
+@media screen and (max-width: 1230px) {
+    .title h1{
+        font-size: var(--title-h1-big);
+    }
+
+    #bannertext h1 {
+        font-size: 52px;
+    }
+
+    #bannertext p {
+        font-size: 18px;
+    }
+
+    #fourth-section h1{
+        font-size: 36px;
+    }
+    #fourth-section p{
+        font-size: 18px;
+    }
+
+    #fourth-section button{
+        font-size: 15px;
+        width: 85px;
+    }
+
+    .last h4, h5, .more{
+        font-size: 20px;
+    }
+
+    .last p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    #bannertext h1 {
+        font-size: 40px;
+    }
+
+    #bannertext p {
+        font-size: 18px;
+    }
+
+    #bannertext #contact {
+        width: 150px;
+        height: 60px;
+        margin-right: 25px;
+    }
+
+    #bannertext #services {
+        width: 150px;
+        height: 60px;
+    }
+
+    #service-text {
+        padding-top: 7%;
+    }
+
+    #third-sec .third-class h1 {
+        font-size: 20px;
+    }
+
+    #third-sec p {
+        font-size: 15px;
+    }
+    
+    #fourth-section h1{
+        font-size: 28px;
+    }
+
+    #fourth-section p{
+        font-size: 14px;
+    }
+
+    .title h1{
+        font-size: var(--title-h1-medium);
+    }
+
+    .title p{
+        font-size: var(--title-p-medium);
+    }
+
+    .last h4, h5, .more{
+        font-size: 15px;
+    }
+
+    .last p{
+        font-size: 8px;
+    }
+
+    .footer h2{
+        font-size: 25px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    #img-logo {
+        width: 80%;
+    }
+
+    #search-form {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    #top_nav {
+        width: 100%;
+    }
+
+    #bannertext {
+        width: 340px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    #bannertext h1 {
+        font-size: 38px;
+    }
+
+    #bannertext p {
+        font-size: 12px;
+    }
+
+    #bannertext #contact {
+        width: 120px;
+        height: 40px;
+        margin-right: 25px;
+    }
+
+    #bannertext #services {
+        width: 120px;
+        height: 40px;
+    }
+
+    #service-text {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        padding: 30px 0 20px;
+    }
+
+    #service-img #image{
+        width: 300px !important;
+    }
+
+    #third-sec img{
+        width: 50%;
+    }
+
+    #fourth-section h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #fourth-section p{
+        font-size: 20px;
+    }
+
+    #sixth-sec img{
+        width: 50%;
+    }
+
+    .last img{
+        width: 50%;
+    }
+
+    .footer h2{
+        font-size: 20px;
+    }
+
+    .footer p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #fourth-section h1{
+        font-size: 30px;
+    }
+
+    #fourth-section p{
+        font-size: 15px;
+    }
+
+    #fifth-sec h1{
+        font-size: 25px;
+    }
+
+    #fifth-sec p{
+        font-size: 15px;
+    }
+
+    #fifth-sec img{
+        padding-top: 15px;
+        width: 50%;
+    }
+
+    #fifth-sec .price{
+        font-size: 25px;
+    }
+
+    #fifth-sec .btn{
+        width: 80px;
+    }
+
+
+}
